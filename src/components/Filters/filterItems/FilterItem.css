@@ -1,0 +1,85 @@
+.filter-item{
+    width: 9%;
+    padding: 10px;
+    background-color: var(--primary-bg);
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;  
+}
+.filter{
+    padding-right: 6px;
+    display: flex;
+}
+.filter-btn{
+    display: flex;
+    font-size: 20px;
+    border: none;
+    color: black;
+    background-color: white;
+    cursor: pointer; 
+}
+.filter-btn:active{
+    display: flex;
+    font-size: 20px;
+    border: none;
+    color: rgb(255, 181, 44);
+    background-color: white;
+    cursor: pointer; 
+}
+.filter-item:active{
+    border: 1px solid rgb(255, 181, 44); 
+}
+.modal{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    z-index: 99999;
+}
+.modal-page{
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+}
+.pop-nav{
+    padding: 24px;
+    border-radius: 10px 10px 0px 0px;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    background-color: rgb(255, 181, 44);
+}
+.pop-nav h2{
+    padding: 11px;
+    color: black;
+}
+.pop-btn{
+    background-color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+.dyn-filter-btn{
+    display: flex;
+    width: 70%;
+}
+.dyn-filter-btn button{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 12px;
+    background-color: rgb(255, 181, 44);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+

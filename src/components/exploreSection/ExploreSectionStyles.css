@@ -1,0 +1,127 @@
+.explore-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.collection-search{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.collection-icon{
+    width: 30%;
+    height: 40px;
+    display: flex;
+}
+.collection-icon input{
+    color: black;
+}
+#collection-input{
+    width: 90%;
+    text-align: left;
+    padding: 15px;
+    float: right;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0.5 solid black;
+    background-color: white;
+}
+#collection-input:focus{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.fa-solid{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.approx-price{
+    font-size: 15px;
+    color: black;
+}
+/*Map */
+.explore-card{
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+}
+
+.explore-card-cover{
+    height: 248px;
+    width: 340px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.explore-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.delivery-time{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+    background-color: var(--primary-bg);
+    backdrop-filter: blur(4px);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+}
+
+
+.res-name{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--heading-text);
+}
+
+.res-rating{
+    font-size: 15px;
+    color: var(--primary-bg);
+    background-color: var(--tag-green);
+    border-radius: 6px;
+    height: 25px;
+}
+
+.pir-rat{
+    float: right;
+    text-align: center;
+    width: 15%;
+    transform: translate(10%, -60%);
+    padding: 5px;
+}
+
+.res-foodType{
+    font-size: 15px;
+    max-width: 56%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+.res-foodType-tag{
+    color: var(--inactive-text);
+}
+
+.approx-price{
+    font-size: 15px;
+    font-weight: 600;
+    color:black;
+}
+
+.explore-card:hover{
+    background-color: var(--primary-bg);
+    border: 1px solid black;
+}

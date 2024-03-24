@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.bloc-tabs{
+    display: flex;
+    flex-flow: column wrap;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+}
+.tabs{
+    border-right: 1px solid rgb(175, 175, 175);
+    padding: 12px;
+    height: 51px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.active-tabs{
+    padding-top: 27px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border-left: 5px solid rgb(255, 181, 44);
+    cursor: pointer;
+}
+.content-tabs{
+    display: flex;
+    flex-flow: column wrap;
+    width: 70%;
+    height: 57vh;
+}
+.content{
+    display: none;
+}
+.active-content{
+    display: block;
+}
+.radio-container{
+    padding: 30px 50px;
+    height: 47.7vh;
+    display: flex;
+    flex-flow: column wrap;
+}
+.radio-container h3{
+    color: black;
+    margin: 10px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.chng-btn{
+    color: orange;
+}
+
+/*Price Range Button */
+.rangeslider{
+    padding: 100px;
+    font-size: 25px;
+    width: 100%;
+}
+.myslider {
+    width: 50%;
+    opacity: 2;
+}
+.myslider:hover {
+    opacity: 1;
+}
+.myslider::-webkit-slider-thumb {
+    cursor: pointer;
+    width: 5%;
+    height: 20px;
+}
+
+/*Variety-Box Button */
+.Variety-box{
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 90%;
+    height: 50vh;
+}
+.btn-botom{
+    transform: translate(-10%, 480%);
+    float: right;
+    margin: 12px 20px;
+    width: 15%;
+    height: 7vh;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.li{
+    list-style: none;
+}
+.variety-checkbox{
+    transform: translate(0%, 80%);
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 10px;
+}

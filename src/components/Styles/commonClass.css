@@ -1,0 +1,364 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.max-width{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.absolute-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cur-po{
+    cursor: pointer;
+}
+
+.collection-item{
+    font-size: 30px;
+    color: var(--heading-text);
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+
+.slick-next::before,
+.slick-prev::before{
+    color: var(--gray);
+}
+
+.cart-container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border: 1px solid var(--filter-text);
+    width: 75%;
+    padding: 12px;
+    margin: auto;
+}
+.cart-image{
+    width: 15%;
+    border-radius: 15px;
+}
+
+.cart-btn {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 12%;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.cart-text{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid var(--filter-text);
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.total-btn1{
+    border: none;
+    border: 1px solid var(--filter-text);
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 10%;
+    height: 5vh;
+    cursor: pointer;
+}
+.main{
+    margin: 15px;
+}
+.h1-text{
+    margin: 15px;
+}
+
+/*Profile Page CSS*/
+.profile-container{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.text{
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid var(--filter-text);
+    border-radius: 8px;
+    
+}
+.only-profile{
+    width: 100%;
+}
+.top-left {
+    position: absolute;
+    bottom: 73%;
+    left: 5%;
+    
+}
+.top-right {
+    position: absolute;
+    bottom: 73%;
+    left: 15%;
+}
+.profile{
+    position: absolute;
+    bottom: 88%;
+    right: 82.3%;
+    width: 8%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.user{
+    position: absolute;
+    bottom: 83%;
+    left: 10%;
+    
+}
+.wish-container{
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+}
+.h1-text{
+    text-align: center;
+}
+.wish-btn{
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 7vh;
+    padding: 10px;
+    float: right;
+    margin: 50px 70px 0px 0px;
+}
+.rat-pir{
+    width: 20%;
+    float: right;
+}
+.food-name{
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    float: left;
+}
+.under-container{
+    margin: 20px;
+}
+
+/* Order Page */
+.main-div{
+    display: flex;
+    width: 100%;
+}
+.order-cart-container{
+    width: 60%;
+}
+.payment-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: navajowhite;
+}
+.payment{
+    padding: 12px;
+    margin: 18px;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+}
+.text-h2{
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+.radio-btn{
+    margin: 0px 5px 0px 5px;
+}
+.label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.input-btn{
+    padding: 8px;
+    width: 75%;
+    border-top: 0px!important;
+    border-right: 0px!important;
+    border-left: 0px!important;
+}
+.input-btn:focus{
+    padding: 8px;
+    border-bottom: 1px solid black;
+    width: 75%;
+   
+}
+.btn-1{
+    border-radius: 10px;
+    padding: 8px;
+    width: 20%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.total-container{
+    padding: 12px;
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+}
+.totl{
+    padding-right: 12px;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 600;
+}
+.mid-h1{
+    float: right;
+    width: 33%;
+    height: 6vh;
+    transform: translate(106%, 25%);
+}
+
+.item-in-order h3{
+    color: white;
+    margin: 20px 20px 0px 0px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.button-container{
+   
+    width: 75%;
+    
+    border-radius: 10px;
+}
+.btn-order{
+    width: 94%;
+    height: 8vh;
+    background-color: green;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.btn-order1{
+    width: 94%;
+    height: 8vh;
+    background-color: red;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.text-t{
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+.collected-material{
+    border-bottom: 5px solid black;
+    border-radius: 5px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.collected-item{
+    background-color: rgb(255, 181, 44);
+    width: 100%;
+    height: 80vh;
+}
+.item-in-order{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.order-ul{
+    padding: 12px;
+}
+.order-li{
+    list-style: none;
+}
+.order-image{
+    border-radius: 12px;
+    width: 20%;
+}
+.div-scroll{
+    border-bottom: 1px dotted black;
+}
+
+/*Last page */
+.last-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.large-container{
+    margin: 30px;
+    width: 100%;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.large-container h1{
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.large-container div{
+    margin-top: 20px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.large-container .Lasttotal-container{
+    padding-left: 280px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Lasttotal-container{
+    width: 40%;
+    border-radius: 10px;
+    background-color: white;
+}
+.Lasttotal-container img{
+    width: 50%;
+}
+.place-btn{
+    padding: 12px;
+    width: 20%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: green;
+    cursor: pointer;
+}

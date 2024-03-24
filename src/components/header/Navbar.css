@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo-img{
+  width: 90%;
+  padding-left: 25px;
+	background-size: cover;
+}
+
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid rgb(131, 131, 131);
+  }
+  .navbar-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+}
+  
+  .navbar-item {
+    margin: 18px;
+    padding: 0px 5px;
+    font-size: 20px;
+  }
+  
+  .navbar-link {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .navbar-link:hover {
+    border-top: 2px solid rgb(255, 181, 44);
+    color: black;
+  }
+
+  .search-btn{
+    font-size: 0.8rem;
+    width: 18%;
+    background-color: rgb(192, 153, 103);
+    cursor: pointer;
+    border: none;
+  }
+
+  .search-btn:hover{
+    width: 20%;
+    background-color: #222;
+    cursor: pointer;
+    color: white;
+  }
+
+  /*User - Auth*/
+.user-auth{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 5vh;
+  margin-left: 220px;
+  padding: 0px 0px 0px 0px;
+}  
+
+.img-auth{
+  border-radius: 200px;
+  width: 50px;
+  height: 50px;
+}
+.btn-auth{
+  width: 150px;
+  height: 6vh;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.btn-auth:hover{
+  width: 150px;
+  height: 6vh;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}

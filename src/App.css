@@ -1,0 +1,16 @@
+#root{
+  --border-white: rgb(232, 232, 232);
+  --zomato-red: rgb(255, 181, 44);
+  --inactive-text: #696969;
+  --inactive-color: #f8f8f8;
+  --primary-bg: rgb(255, 255, 255);
+  --filter-text: #9c9c9c;
+  --gray: rgb(207,207,207);
+  --heading-text: #1c1c1c;
+  --collection-shadow: rgba(63, 49, 49, 0.08) 0px 3px 12px;
+  --tag-green: #267e3e;
+}
+
+
+
+

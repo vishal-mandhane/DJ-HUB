@@ -1,0 +1,60 @@
+.container-img{
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 105%;
+    object-fit: fit;
+}
+
+.Main-text{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 45%;
+    height: 40vh;
+    background-color: rgba(255, 181, 44, 0);
+    border-radius: 5px;
+    padding: 0px 25px;
+}
+.Main-text h1{
+    font-size: 4rem;
+    font-weight: 600;
+    background: #fcfcfc;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Main-text p{
+    font-size: 1.6rem; 
+    color: #222;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.show{
+    text-decoration: none;
+    background-color: black;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.show:hover{
+    transition: 0.2s ease-out;
+    font-size: 18px;
+}
+.btnclass{
+    text-decoration: none;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: unset;
+    animation-direction: normal;
+    
+}
+
+/*Animation*/
+
