@@ -1,6 +1,6 @@
-## Foody App: Your Food Delivery Desktop Web Application
+##DJHUB App: Your Food Delivery Desktop Web Application
 
-**Foody App is a food delivery-only frontend web application that users can easily experience every step of other food delivery apps provided; So, Get ready to tantalize your taste buds with Foody App, a React and Redux-powered food delivery app that delivers delicious experiences straight to your fingertips.**
+**DJHUB App is a food delivery-only frontend web application that users can easily experience every step of other food delivery apps provided; So, Get ready to tantalize your taste buds with DJHUB, a React and Redux-powered food delivery app that delivers delicious experiences straight to your fingertips.**
 
 **Features:**
 
@@ -33,6 +33,3 @@
 * Browse your favorite food options and explore the exciting culinary world.
 * Place your order and get ready to savor a delightful experience.
 
-
-## Demo
-`https://dear-foody-app.netlify.app/`
