@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import NextArrow from "../Carousal/nextArrow";
 import PrevArrow from "../Carousal/prevArrow";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../../firebase.config";
+import { db } from "../../firebase.config"
 import {  query, where } from "firebase/firestore";
 
 

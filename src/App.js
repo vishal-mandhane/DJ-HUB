@@ -16,6 +16,7 @@ import ParticularCuisines from './components/Cart/ParticularCuisines';
 import Signup from './routes/Signup';
 import Login from './routes/Login';
 import Admin from './routes/Admin';
+import AdminPanel from './routes/AdminPanel';
 
 function App() {
 
@@ -34,7 +35,8 @@ function App() {
           <Route path="/item/:id" element={<ParticularItem/>}/>
           <Route path="/foodtype/:id" element={<ParticularCuisines/>}/>
           <Route path="/confirm" element={<LastPage />} />
-          <Route path='/admin' element={<Admin/>} />
+          <Route path='/updatefood' element={<Admin/>} />
+          <Route path='/adminpanel' element={<AdminPanel/>} />
         </Routes>
         <Toaster position='top-right'/>
       </Provider>

@@ -53,7 +53,7 @@ const ExploreSection = () => {
     <div className="max-width explore-section">
       <div className="collection-title">
         <div className="collection-search">
-          <h1>Search It, Eat It :- That's It!</h1>
+          <h1>Search It, Eat It - That's It!</h1>
           <div className="collection-icon">
             <input
               type="search"

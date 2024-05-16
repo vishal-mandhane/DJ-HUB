@@ -15,6 +15,7 @@ const Admin = () => {
     const [time, setTime] = useState('');
     const [description, setDescription] = useState('');
     const [image, setImage] = useState('');
+    const [status, setStatus] = useState(false);
 
   const setData = async () => {
     const citiesRef = collection(db, "ItemList");
@@ -27,8 +28,8 @@ const Admin = () => {
       name: foodName,
       price: price,
       rating:rating,
-      id: id
-      
+      id: id,
+      readymadestatus: false
     });
    
   
@@ -61,6 +62,7 @@ const Admin = () => {
       setTime("");
       setDescription("");
       setImage("");
+      setStatus(false);
     }
 
   return (
@@ -112,7 +114,7 @@ const Admin = () => {
           onChange={(e) => setImage(e.target.value)}
         />
               </label>
-              <label>Enter Delivery Time:
+              <label>Enter Preparation Time:
         <input
           type="text" 
           value={time}
@@ -127,6 +129,13 @@ const Admin = () => {
           onChange={(e) => setDescription(e.target.value)}
         />
               </label>
+              <label>Enter the Ready-Made Status:
+        <input
+          type="boolean" 
+          value={status}
+          onChange={(e) => setStatus(e.target.value)}
+        />
+        </label>
               <button>Submit</button>
     </form>
     </div>

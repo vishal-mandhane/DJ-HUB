@@ -2,7 +2,8 @@ import React from 'react';
 import Navbar from '../components/header/Navbar';
 import Main from '../components/Main';
 import Footer from '../components/footer/Footer';
-import imgg from '../../src/assests/djant.jpg'
+// import imgg from '../../src/assests/djant.jpg'
+import imgg from '../../src/assests/wallpaper.jpg'
 import { useSelector } from 'react-redux';
 
 
@@ -15,7 +16,7 @@ const Home = () => {
       <Main 
   MainImg= {imgg}
   title="Ashish Bhaiya ka lazeez खाना खजाना"
-  text="Canteen mei nahi hai SEAT, डीजे संघवी ka khana hai HIT!!"
+  text="Canteen mei nahi hai SEAT, DJ Sanghvi ka khana hai HIT!"
   buttonText="Get Started"
   url="/item"
   btnclass="show"

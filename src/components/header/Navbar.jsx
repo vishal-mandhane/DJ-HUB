@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../header/Navbar.css";
-import navLogo from "../../assests/djhub.png";
+import navLogo from "../../assests/djhublogo.png";
 import { useSelector } from "react-redux";
 
 const Navbar = () => {
@@ -24,29 +24,44 @@ const Navbar = () => {
             Menu
           </Link>
         </li>
+        {name === "Vishal" && (
+          <li className="navbar-item">
+            <Link to="/updatefood" className="navbar-link">
+              Food Items
+            </Link>
+          </li>
+        )}
+        {name !== "Vishal" && (
         <li className="navbar-item">
           <Link to="/cart" className="navbar-link">
             Cart
           </Link>
         </li>
+      )}
+
+      {name !== "Vishal" && (
         <li className="navbar-item">
           <Link to="/orders" className="navbar-link">
             Orders
           </Link>
         </li>
+      )}
+
+    {name === "Vishal" && (
+        <li className="navbar-item">
+          <Link to="/adminpanel" className="navbar-link">
+            Admin Panel
+          </Link>
+        </li>
+    )}
+    
         <li className="navbar-item">
           <Link to="/account" className="navbar-link">
             Profile
           </Link>
         </li>
+      
 
-        {name === "Vishal" && (
-          <li className="navbar-item">
-            <Link to="/admin" className="navbar-link">
-              Admin
-            </Link>
-          </li>
-        )}
       </ul>
     </nav>
   );
